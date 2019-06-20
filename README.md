@@ -14,7 +14,7 @@ Responsive Bootstrap4 Card with Tiltjs Effect
 ```
 ## Tiltjs
 [Tiltjs](https://github.com/gijsroge/tilt.js) is a smooth 3D tilt javascript library
-### Version :
+##### Version :
 
 ```bash
  1.2.1
