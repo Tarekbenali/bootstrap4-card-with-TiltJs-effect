@@ -1,0 +1,38 @@
+body{
+    height:100%;
+    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #65c5d5, #7ec4de, #97c2e0, #adc1de, #bdc1d8);
+}
+
+.container{
+    min-height: 100vh;
+    .card{
+        overflow: hidden;
+        transition:ease-in-out 0.5s;
+        border-radius: 0.7rem;
+        max-width:16rem;
+        &:hover  {
+            transform: translateY(-20px);
+            box-shadow: 0 0 20px 20px rgba(0, 0, 0, .2);
+            img{
+                opacity: 0.5;
+            }
+            .card-img-overlay{
+                bottom: 0;
+                background: linear-gradient(0deg,#FFFBD5,transparent);
+            }}
+        .icon {
+            i{
+                cursor: pointer;
+            }}
+            .card-img-overlay{
+                position: absolute;
+                width: 100%;
+                bottom: -100%;
+                transition: ease-in-out 0.5s;
+            }
+    
+    }}
+     
+ 
